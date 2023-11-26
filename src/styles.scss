@@ -1,1 +1,174 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primary: #000000;
+  --color-sucundary: #000000;
+  --font-principal: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #242424;
+  font-family: var(--font-principal);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  color: #000;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #0e2a47;
+}
+
+section.module.content {
+  padding: 40px 0;
+  background: #fafafa;
+}
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+section.module.parallax:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+section.module.parallax-1 {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1009%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M441.67065781915244 434.07286232029406L264.8652855579139 481.2671680934525 375.98774328792865 596.3378416157939z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M600.8089680195777 503.4658716632168L750.3856449757643 552.0662801033484 798.986053415896 402.48960314716186 649.4093764597094 353.8891947070302z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-11.32%2c289.035C10.239%2c287.408%2c23.771%2c268.049%2c34.118%2c249.066C43.879%2c231.157%2c51.664%2c210.019%2c41.33%2c192.435C31.09%2c175.012%2c8.878%2c172.414%2c-11.32%2c171.752C-33.242%2c171.034%2c-57.803%2c170.755%2c-70.305%2c188.777C-84.188%2c208.791%2c-82.777%2c235.963%2c-70.425%2c256.957C-58.242%2c277.665%2c-35.278%2c290.843%2c-11.32%2c289.035' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M978.2491962623062 126.85562511447338L896.1525243537153 79.45708948847607 848.753988727718 161.55376139706698 930.8506606363089 208.9522970230643z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M461.94499587868637 199.97803789573663L603.6392090868463 214.87069981655193 618.5318710076616 73.17648660839197 476.83765779950164 58.28382468757667z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1147.871%2c399.607C1196.576%2c397.713%2c1237.982%2c366.961%2c1261.682%2c324.369C1284.688%2c283.025%2c1286.306%2c233.359%2c1263.421%2c191.948C1239.754%2c149.123%2c1196.793%2c117.554%2c1147.871%2c118.428C1100.204%2c119.279%2c1063.922%2c155.154%2c1039.256%2c195.952C1013.454%2c238.629%2c994.157%2c289.854%2c1017.626%2c333.858C1042.155%2c379.851%2c1095.785%2c401.632%2c1147.871%2c399.607' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1009'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+section.module.parallax-2 {
+  background-image: url("https://images.unsplash.com/photo-1473181488821-2d23949a045a?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
+}
+
+section.module.parallax-3 {
+  background-image: url("https://images.unsplash.com/photo-1472162314594-eca3c3d90df1?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=");
+}
+
+section.module.parallax h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 78px;
+  z-index: 50;
+  text-transform: uppercase;
+}
+
+.area-1,
+.area-2,
+.area-3 {
+  visibility: hidden;
+}
+
+::-webkit-scrollbar {
+  background: #1d1d1d;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c4c4;
+  border-radius: 5px;
+  border: 3px solid #1d1d1d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+/* Cor do "thumb" enquanto arrasta */
+::-webkit-scrollbar-thumb:active {
+  background-color: #5d97d6;
+}
+
+::-webkit-scrollbar-scroll {
+  padding: 8px !important;
+  margin: 8px !important;
+}
+
+
+@media all and (max-width: 820px) {
+  section.module h2 {
+    font-size: 32px;
+  }
+  .module h2,
+  p {
+    padding: 0 8px;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  section.module.parallax h1 {
+    font-size: 36px;
+  }
+}

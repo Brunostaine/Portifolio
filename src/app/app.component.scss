@@ -1,0 +1,49 @@
+.module.parallax img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 3px #413f3f;
+  margin: 0 auto;
+}
+
+.sessao-card {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.carreira {
+  text-align: start;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+.carreira-span {
+  font-weight: bold;
+}
+
+.info-pessoal p {
+  margin: 8px;
+}
+
+.info-pessoal span {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .carreira {
+    text-align: justify;
+  }
+
+  .sessao-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

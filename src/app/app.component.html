@@ -1,0 +1,70 @@
+<div class="wrapper">
+  <main>
+    <section class="module parallax parallax-1">
+      <img src="../assets/images/img-bruno.jpg" alt="Imagem do Bruno Staine" />
+      <h1 class="area-1">Bruno Staine</h1>
+    </section>
+
+    <section class="module content">
+      <div class="container">
+        <h2>Informações pessoais</h2>
+        <section class="info-pessoal" [(ngModel)]="idade">
+          <p><span>Nome completo: </span> Bruno Staine Caires de Oliveira</p>
+          <p><span>Profissão: </span> Desenvolvedor Fullstack</p>
+          <p><span>Email: </span> brunostaine@hotmail.com</p>
+          <p><span>Idade: </span>{{ idade }} anos</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="module parallax parallax-2">
+      <h1 class="area-1">Sobre o profissional</h1>
+    </section>
+
+    <section class="module content">
+      <div class="container">
+        <h2>Carreira</h2>
+        <p class="carreira">
+          Desenvolvedor Fullstack com ampla experiência na criação de soluções
+          web inovadoras. <br />Ao longo da minha carreira, tenho liderado o
+          desenvolvimento de landing pages e sistemas web robustos. Minha
+          abordagem centrada no usuário, combinada com uma sólida compreensão
+          das últimas tendências em design e usabilidade, resultou em interfaces
+          intuitivas e atraentes.<br />
+          <span class="carreira-span">Desenvolvimento Ágil:</span> Utilizo
+          metodologias ágeis para garantir entregas eficientes e iterativas,
+          proporcionando uma experiência de desenvolvimento flexível e
+          adaptável. <br />
+          <span class="carreira-span">Integração de Tecnologias:</span> Sou
+          especializado na integração harmoniosa de tecnologias front-end e
+          back-end, criando sistemas coesos e eficientes. <br />
+          <span class="carreira-span">Optimização de Desempenho:</span>
+          Dedico-me à otimização de desempenho para garantir que as aplicações
+          não apenas atendam, mas superem as expectativas em termos de
+          velocidade e eficiência.
+        </p>
+      </div>
+    </section>
+
+    <section class="module parallax parallax-3">
+      <h1 class="area-1">Projetos</h1>
+    </section>
+
+    <section class="module">
+      <div class="container">
+        <h2>Principais Projetos</h2>
+        <section class="sessao-card">
+          <app-card
+            *ngFor="let card of cards"
+            [link]="card.link"
+            [title]="card.title"
+            [image]="card.image"
+            [description]="card.description"
+          ></app-card>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <app-footer></app-footer>
+</div>
