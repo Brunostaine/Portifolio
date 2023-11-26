@@ -31,12 +31,7 @@
 
 ## 📁 Acesso ao projeto
 
-**Acesso ao código do projeto**<br>
-**Em breve**
-
-## 🛠️ Abrir e rodar o projeto
-
-**Em breve**
+**https://brunostaine.netlify.app/**
 
 ## Tecnicas e tecnologias utilizadas
 
