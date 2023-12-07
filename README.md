@@ -5,22 +5,6 @@
   
 ![Alt text](image-1.png)
 
-
-## INDICE
-
-* [Título](#titulo)
-* [Badges](#badges)
-* [Status do Projeto](#status-do-Projeto)
-* [Imagem de capa](#Imagem-de-capa)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Autor](#Autor)
-
-
 ## Descrição do projeto
 
 - É um projeto pessoal do meu portifólio, a ideia desse projeto é que eu possa atualizar sempre com novos projetos que estaram em produção. Também quero mostrar para as pessoas um pouco do meu trabalho. Nesse projeto de portifólio você pode clicar em um projeto que está publicado e ver um pouco do projeto. Tem vários projetos porém não posso deixar todos publicos aqui então aos poucos vou inserindo alguns projetos que julgo interessantes para o portifólio.
