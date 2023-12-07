@@ -41,6 +41,14 @@ export class AppComponent implements OnInit {
       description:
         'Esse projeto é uma landing page de apresentação de uma empresa de arquitetura. ',
     },
+    {
+      link: 'https://clinicas-psicologia.netlify.app/',
+      title: 'Michelle Bonozatto Psicologia',
+      image:
+        '../assets/images/image-psicologia.png',
+      description:
+        'Esse projeto é uma landing page para uma clinica de psicologia.',
+    },
   ];
 
   calcularIdade() {
