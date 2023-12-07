@@ -3,7 +3,7 @@
 
 ![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
   
-![Alt text](image-1.png)
+![Alt text](./src/assets//images/image.png)
 
 ## Descrição do projeto
 
@@ -19,7 +19,7 @@
 
 ## Tecnicas e tecnologias utilizadas
 
-* Angular 16
+* Angular 17
 * SCSS
 * Scrollreveal
 * Prime Icons
